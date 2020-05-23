@@ -13,6 +13,8 @@
 		CA135E962468A9F800BA6961 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA135E942468A9F800BA6961 /* Main.storyboard */; };
 		CA135E982468A9FE00BA6961 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA135E972468A9FE00BA6961 /* Assets.xcassets */; };
 		CA135E9B2468A9FE00BA6961 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA135E992468A9FE00BA6961 /* LaunchScreen.storyboard */; };
+		CA135EA32468AB3000BA6961 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA135EA22468AB3000BA6961 /* Friend.swift */; };
+		CA135EA52468ADF500BA6961 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA135EA42468ADF500BA6961 /* Connection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		CA135E972468A9FE00BA6961 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA135E9A2468A9FE00BA6961 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA135E9C2468A9FE00BA6961 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA135EA22468AB3000BA6961 /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		CA135EA42468ADF500BA6961 /* Connection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				CA135E972468A9FE00BA6961 /* Assets.xcassets */,
 				CA135E992468A9FE00BA6961 /* LaunchScreen.storyboard */,
 				CA135E9C2468A9FE00BA6961 /* Info.plist */,
+				CA135EA22468AB3000BA6961 /* Friend.swift */,
+				CA135EA42468ADF500BA6961 /* Connection.swift */,
 			);
 			path = FriendFace;
 			sourceTree = "<group>";
@@ -140,7 +146,9 @@
 			files = (
 				CA135E932468A9F800BA6961 /* ViewController.swift in Sources */,
 				CA135E8F2468A9F800BA6961 /* AppDelegate.swift in Sources */,
+				CA135EA52468ADF500BA6961 /* Connection.swift in Sources */,
 				CA135E912468A9F800BA6961 /* SceneDelegate.swift in Sources */,
+				CA135EA32468AB3000BA6961 /* Friend.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
